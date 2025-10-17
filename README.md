@@ -1,4 +1,7 @@
-
+<html>
+<head>
+</head>
+<body>        
         <h1>Share Your Story</h1>
         <p>If you also want your story to be published,<br>
         send a summary of it on this WhatsApp number:</p>
