@@ -1,2 +1,56 @@
-# story-submission
-a website where you can publish your story so that we can publish it
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Story</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        a.whatsapp-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        a.whatsapp-link:hover {
+            background: #1ebe5b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Share Your Story</h1>
+        <p>If you also want your story to be published,<br>
+        send a summary of it on this WhatsApp number:</p>
+        <a class="whatsapp-link" href="https://wa.me/917617570994" target="_blank">
+            📱 Message on WhatsApp: 7617570994
+        </a>
+    </div>
+</body>
+</html>
